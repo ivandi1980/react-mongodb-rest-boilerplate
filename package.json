@@ -16,7 +16,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
-    "sequelize": "^4.37.0"
+    "sequelize": "^4.37.1"
   },
   "devDependencies": {
     "webpack": "^4.1.1",
