@@ -24,6 +24,6 @@ app.use('./router.js');
 const port = 3000;
 
 // Listener
-app.listen(port, function () {
+app.listen(port, () => {
   console.log('The server has started on port:  ' + port);
 });
