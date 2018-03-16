@@ -2,7 +2,7 @@
 import mongoose from 'mongoose';
 
 // Imports: Database
-import mongodb from '../database/mongodb';
+import mongoDatabase from '../database/mongodb';
 
 
 
