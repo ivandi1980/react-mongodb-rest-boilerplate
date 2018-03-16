@@ -4,7 +4,7 @@ const router = require('express').Router();
 
 // Imports: Database Controllers
 import sqlController from './controllers/sqlcontroller.js';
-import mongoController from './controllers/mongocontroller.js';
+import mongodbController from './controllers/mongodbcontroller.js';
 
 // Imports: API Controllers
 import apiController from './controllers/apicontroller.js';
