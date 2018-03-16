@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "jest",
     "build": "webpack"
   },
@@ -19,6 +20,8 @@
     "sequelize": "^4.37.1"
   },
   "devDependencies": {
+    "jest": "^23.0.0-alpha.0",
+    "jest-cli": "^23.0.0-alpha.0",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
   }
