@@ -37,4 +37,4 @@ import apiController from './controllers/apicontroller.js';
 
 
 // Exports
-module.exports = router;
+export default router;
