@@ -33,3 +33,8 @@ import apiController from './controllers/apicontroller.js';
 
 
 /************************* ROUTES: MongoDB Controller *************************/
+
+
+
+// Exports
+module.exports = router;
