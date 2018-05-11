@@ -1,7 +1,6 @@
 // Requirements: Express Router
 const router = require('express').Router();
 
-
 // Imports: Database Controllers
 import sqlController from './controllers/sqlcontroller.js';
 import mongodbController from './controllers/mongodbcontroller.js';
