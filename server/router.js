@@ -1,12 +1,16 @@
 // Requirements: Express Router
-const router = require('express').Router();
+const ROUTER = require('express').Router();
 
 // Imports: Database Controllers
-import sqlController from './controllers/sqlcontroller.js';
-import mongodbController from './controllers/mongodbcontroller.js';
+// import sqlController from './controllers/sqlcontroller.js';
+// import mongodbController from './controllers/mongodbcontroller.js';
+const sqlController = require('./controllers/sqlcontroller.js');
+const mongodbcontroller = require('./controllers/mongodbcontroller.js');
+
 
 // Imports: API Controllers
-import apiController from './controllers/apicontroller.js';
+// import apiController from './controllers/apicontroller.js';
+const apicontroller = require('./controllers/apicontroller.js')
 
 
 
@@ -36,4 +40,5 @@ import apiController from './controllers/apicontroller.js';
 
 
 // Exports
-export default router;
+// export default ROUTER;
+module.exports = ROUTER
