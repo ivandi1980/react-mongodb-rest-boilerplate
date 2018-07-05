@@ -14,14 +14,22 @@ const CONFIG = {
   },
   // Loaders
   module: {
-    rules: [
+    rules : [
       // JavaScript/JSX Files
       {
         test: /\.jsx$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
+        use: 'babel-loader'
+      },
+      // CSS Files
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      },
+      // Image Files
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: 'file-loader'
       }
     ]
   },
