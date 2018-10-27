@@ -15,6 +15,7 @@
 * [ESLint](https://eslint.org) - Linter
 
 ## Getting Started
+**Note:** [Installing MongoDB](https://docs.mongodb.com/manual/installation/) is required.
 **1. Install Dependencies:**
 ```
 npm install
@@ -29,7 +30,11 @@ npm run server
 ```
 npm start
 ```
-**4. Start Database:**
+**4. Start Mongodb Daemon (Background Process):**
 ```
-npm database
+mongod
+```
+**5. Start Mongodb Shell (Where The Commands Are Executed):**
+```
+mongo
 ```
