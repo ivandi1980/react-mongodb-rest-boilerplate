@@ -1,4 +1,4 @@
-# Full Stack JavaScript React/REST/MongoDB Boilerplate
+# Full Stack JavaScript React/MongoDB REST Boilerplate
 
 *  [Built With](#built-with)
 *  [Getting Started](#getting-started)
