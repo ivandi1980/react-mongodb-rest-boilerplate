@@ -1,6 +1,6 @@
 {
-  "name": "react-full-stack-boilerplate",
-  "version": "1.0.0",
+  "name": "react-mongodb-rest-boilerplate",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
