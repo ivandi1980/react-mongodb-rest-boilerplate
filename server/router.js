@@ -1,44 +1,25 @@
-// Requirements: Express Router
-const ROUTER = require('express').Router();
+// Imports: Dependencies
+import express from 'express';
 
-// Imports: Database Controllers
-// import sqlController from './controllers/sqlcontroller.js';
-// import mongodbController from './controllers/mongodbcontroller.js';
-const sqlController = require('./controllers/sqlcontroller.js');
-const mongodbcontroller = require('./controllers/mongodbcontroller.js');
+// Express: Router
+const ROUTER = express.Router();
 
+// Imports: Controllers
+import mongodbcontroller from './controllers/mongodbcontroller.js';
+import apiController from './controllers/apicontroller.js';
 
-// Imports: API Controllers
-// import apiController from './controllers/apicontroller.js';
-const apicontroller = require('./controllers/apicontroller.js')
+// ROUTES
+// Home
+app.get('/', function(req, res) {
+  res.json({ message: 'Welcome to the Poke-MongoDB RESTful API!' });
+});
 
-
-
-
-/****************************** ROUTES: Homepage ******************************/
-
-
-/****************************** ROUTES: Homepage ******************************/
+// MongoDB Controller
 
 
-
-
-/*************************** ROUTES: SQL Controller ***************************/
-
-
-/*************************** ROUTES: SQL Controller ***************************/
-
-
-
-
-
-/************************* ROUTES: MongoDB Controller *************************/
-
-
-/************************* ROUTES: MongoDB Controller *************************/
+// API Controller
 
 
 
 // Exports
-// export default ROUTER;
-module.exports = ROUTER
+export default ROUTER;
