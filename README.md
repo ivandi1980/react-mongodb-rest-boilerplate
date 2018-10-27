@@ -33,11 +33,13 @@ npm run server
 ```
 npm start
 ```
-**4. Start Mongodb Daemon (Background Process):**
+**4. Start MongoDB Daemon (Background Process):**
+Note: The MongoDB Daemon command should be executed before the MongoDB Shell command.
+
 ```
 mongod
 ```
-**5. Start Mongodb Shell (Where The Commands Are Executed):**
+**5. Start MongoDB Shell (Where The Commands Are Executed):**
 ```
 mongo
 ```
