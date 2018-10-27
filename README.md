@@ -16,6 +16,7 @@
 
 ## Getting Started
 **Note:** [Installing MongoDB](https://docs.mongodb.com/manual/installation/) is required.
+
 **1. Install Dependencies:**
 ```
 npm install
