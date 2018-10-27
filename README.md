@@ -15,7 +15,9 @@
 * [ESLint](https://eslint.org) - Linter
 
 ## Getting Started
-**Note:** [Installing MongoDB](https://docs.mongodb.com/manual/installation/) is required.
+**Prerequisites:**
+* [Install Node.js](https://nodejs.org/en/download/)
+* [Install MongoDB](https://docs.mongodb.com/manual/installation/)
 
 **1. Install Dependencies:**
 ```
