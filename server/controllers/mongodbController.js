@@ -1,15 +1,20 @@
-// Imports: Mongoose
-// import mongoose from 'mongoose';
-const mongoose = require('mongoose');
+// Imports: Dependencies
+import mongoose from 'mongoose';
+import mongoDatabase from '../database/mongodb';
 
-// Imports: Database
-// import mongoDatabase from '../database/mongodb';
-// const mongoDatabase = require('../database/mongodb');
+// MongoDB Queries
+export default findUser = () => {
 
+}
 
+export default addUser = () => {
+  
+}
 
+export default deleteUser = () => {
+  
+}
 
-/*************************** MongoDB Query Functions ***************************/
-
-
-/*************************** MongoDB Query Functions ***************************/
+export default updateUser = () => {
+  
+}
