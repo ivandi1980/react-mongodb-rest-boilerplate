@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --mode development --progress --hot=true",
     "server": "nodemon --exec babel-node ./server/server.js",
-    "build": "webpack --mode production",
+    "build": "webpack --mode development --progress --config webpack.config.js",
     "test": "jest"
   },
   "repository": {

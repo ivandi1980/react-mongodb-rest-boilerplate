@@ -38,7 +38,11 @@ const CONFIG = {
     new HTMLWEBPACKPLUGIN({
       template: './client/src/index.html'
     })
-  ]
+  ],
+  // Reload On File Change
+  watch: true,
+  // Development Tools (Map Errors To Source File)
+  devtool: 'source-map',
 };
 
 // Exports
