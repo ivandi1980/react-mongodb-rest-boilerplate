@@ -1,8 +1,9 @@
 // Imports: Dependencies
 import express from 'express';
-import router from './router';
 import cors from 'cors';
 import opn from 'opn';
+import bodyParser from 'body-parser';
+import router from './router';
 
 // Express App
 const APP = express();
@@ -12,7 +13,7 @@ const APP = express();
 
 // Middleware: CORS
 APP.use(bodyParser.json());
-APP.use(bodyParser.urlencoded({extended: true}));
+APP.use(bodyParser.urlencoded({ extended: true }));
 APP.use(cors());
 
 // Use: Static Files
